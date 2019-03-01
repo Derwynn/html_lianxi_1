@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*public style*/
+
+.inner{width: 1000px;
+        margin: 0 auto;}
+
+/*头部*/
+.header{padding: 10px 0 15px;  }
+.header .left p{font: 12px/24px "宋体";color: #888;text-align: right;}
+.header .left img{vertical-align:middle; }
+.header .left span{font: 19px "微软雅黑"; color:#333; margin-left: 15px;                                 position:relative;top:8px;}
+.header .right{padding-top: 14px;}
+.header .right p {font:12px/24px "宋体"; color: #888;text-align: right;}
+.header .right span{margin-right: 23px;}
+.header .right p a{color: #888;}
+.header .menubar ul{position: relative;right: -14px;}
+.header .menubar li{float: left; font:12px/22px "宋体";  color: #cccccc; }
+.header .menubar a{color: #666; padding: 0 14px 0 12px;}
+
+/*导航*/
+.nav{background: #005db0;}
+.nav ul{ border: 1px solid #1c6db5;position: relative;left: -1px;}
+.nav li{float: left; border-right: 1px solid #1c6db5;}
+.nav li a{display:block; font:16px/46px "微软雅黑"; color:#fff; padding: 0 26px;}
+.nav .active a,
+.nav li:hover a{background: #00498b;}
+
+/*banner*/
+.banner{height:394px;background: url("../images/zg_banner_05.jpg") no-repeat center top;}
+
+/*main*/
+.main .left{width: 630px;padding-right: 19px;border-right:1px dotted #ddd;padding-bottom: 33px;  }
+.main .left h3{background:url("../images/pic_01.jpg") no-repeat; color:#555555;
+                 padding: 0 30px;margin-top: 30px;border-bottom: 1px solid #dddddd;padding-bottom: 15px;}
+.main .left ol{margin-top: 15px;}
+.main .left li{line-height: 30px;background: url("../images/01.jpg") no-repeat;       background-position:center left;padding-left: 30px;}
+.main .left li a{display: block;color:#666666; }
+.main .left li span{ float:right;color: #666666;}
+.main .right{height: 263px;}
+.main .right h3{background:url("../images/pic_02.jpg") no-repeat; color:#555555;
+                  padding: 0 30px;margin-top: 30px;margin-left:20px; border-bottom: 1px solid #dddddd;padding-bottom: 15px;}
+.main .right ol li span{display: block; margin-left: 60px;}
+.main .right ol{width: 307px;background: url("../images/zg_bk01.jpg") no-repeat;
+                  line-height: 30px;margin-left: 20px;}
+
+/*版权信息区*/
+.copy{ background: #efefef;}
+.copy .inner p{text-align: center; font:12px/61px "宋体"; color:#888;}
+.copy  .inner .pic_text .pic_1{margin-top: 0px;margin-top: 18px;
+                                   padding-right: 7px;}
+.copy  .inner .pic_text .pic_2{margin-top: 24px;}
